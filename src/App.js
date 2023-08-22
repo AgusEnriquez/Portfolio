@@ -21,6 +21,6 @@ const App = () => {
       <div className='h-[4000px]'></div>
     </div>
   );
-};
+}
 
 export default App;
