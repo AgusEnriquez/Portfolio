@@ -1,10 +1,14 @@
 import React from "react";
 
+import {motion} from "framer-motion";
+
+import {fadeIn} from "../variants"
+ 
 const Contact = () => {
   return (
-    <div className="section" id="contact">
-      Contact
-    </div>
+    <section className="py-16 lg:section" id="contact">
+      
+    </section>
   );
 };
 

@@ -37,6 +37,15 @@ const Nav = () => {
             <BsClipboardData />
           </Link>
           <Link
+            to="services"
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+          >
+            <BsChatSquare />
+          </Link>
+          <Link
             to="contact"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
             activeClass="active"
