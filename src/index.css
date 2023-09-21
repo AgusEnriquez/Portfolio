@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-backgroundColor{
+  background-color: #002d47;
+}
+
+.bg-backgroundImage {
+  background-image: url(./assets/fondoprueba.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.bg-home{
+  background: linear-gradient( 163deg, #002d47 19.43%, #36eee5 48.63%, #4588af 80%, #002d47 90.04% )
+}
+
 .btn {
   background: linear-gradient(
     92.23deg,
