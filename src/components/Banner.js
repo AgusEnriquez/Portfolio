@@ -1,14 +1,9 @@
 import React from "react";
-
 import Image from "../assets/avatar.svg";
-
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
-
 import { TypeAnimation } from "react-type-animation";
-
 import { motion } from "framer-motion";
-
 import { fadeIn } from "../variants";
+import NameLogo from "../assets/Agustin-Enriquez.png";
 
 const Banner = () => {
   return (
@@ -26,7 +21,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
             >
-              Agustin <span>Enriquez</span>
+              <img className="" src={NameLogo} />
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -37,14 +32,7 @@ const Banner = () => {
             >
               <span className="mr-4"> I am a</span>
               <TypeAnimation
-                sequence={[
-                  "Developer",
-                  2000,
-                  "Designer",
-                  2000,
-                  "Youtuber",
-                  2000,
-                ]}
+                sequence={["Developer", 2000, "Designer", 2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"
@@ -56,11 +44,12 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 font-semibold"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
-              totam! Aliquam non quidem similique ullam est, ipsa dicta
-              molestiae delectus libero alias amet consequatur.
+              <p>Me gusta crear productos frontend sólidos y escalables con
+              excelentes experiencias de usuario.</p>
+              <p>Me gusta crear productos frontend sólidos y escalables con
+              excelentes experiencias de usuario.</p>
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -69,27 +58,20 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
-            </motion.div>
-            <motion.div
-              variants={fadeIn("up", 0.7)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx auto lg:mx-0"
-            >
-              <a href="#">
-                <FaYoutube />
-              </a>
-              <a href="#">
-                <FaGithub />
-              </a>
-              <a href="#">
-                <FaDribbble />
-              </a>
+              <button className="button-principal-me">Contact Me</button>
+              <div class="group relative">
+                <button>
+                  <svg
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="w-8 hover:scale-125 duration-200 hover:stroke-green-400"
+                  >
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </button>
+              </div>
             </motion.div>
           </div>
 

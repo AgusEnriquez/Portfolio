@@ -26,7 +26,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="section bg-backgroundImage" id="services">
+    <section className="section" id="services">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <motion.div
@@ -41,7 +41,7 @@ const Services = () => {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
               totam! Aliquam non.
             </h3>
-            <button className="btn btn-sm">See my work</button>
+            <button className="button-principal-me">See my work</button>
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}

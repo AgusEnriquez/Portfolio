@@ -10,11 +10,9 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div className="bg-backgroundColor bg-no-repeat bg-cover overflow-hidden">
-      <div className="bg-home">
+    <div>
       <Header />
       <Banner />
-      </div>
       <About />
       <Nav />
       <Services />

@@ -26,7 +26,7 @@ const Work = () => {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Dolore, totam! Aliquam non quidem similique ullam est.
               </p>
-              <button className="btn btn-sm"> View all projects</button>
+              <button className="button-principal-me"> View all projects</button>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>

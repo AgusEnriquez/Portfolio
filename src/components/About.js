@@ -18,7 +18,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] bg-top"
           ></motion.div>
           <motion.div
             className="flex-1"
@@ -57,7 +57,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact Me</button>
+              <button className="button-principal-me">Contact Me</button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>

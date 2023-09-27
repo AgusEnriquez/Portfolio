@@ -16,8 +16,7 @@ const Nav = () => {
             spy={true}
             offset={-200}
           >
-            <BiHomeAlt
-            fontSize={25} />
+            <BiHomeAlt fontSize={25} />
           </Link>
           <Link
             to="about"
@@ -26,8 +25,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
           >
-            <BiUser
-            fontSize={25} />
+            <BiUser fontSize={25} />
           </Link>
           <Link
             to="services"
@@ -36,8 +34,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
           >
-            <BsClipboardData
-            fontSize={25} />
+            <BsClipboardData fontSize={25} />
           </Link>
           <Link
             to="work"
@@ -46,8 +43,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
           >
-           <BsBriefcase
-           fontSize={25} />
+            <BsBriefcase fontSize={25} />
           </Link>
           <Link
             to="contact"
@@ -56,8 +52,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
           >
-            <BsChatSquare
-            fontSize={25} /> 
+            <BsChatSquare fontSize={25} />
           </Link>
         </div>
       </div>
