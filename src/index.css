@@ -23,7 +23,7 @@ body::before {
   font-weight: 100;
   font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
 
 /* Animations */
@@ -119,8 +119,8 @@ body::before {
   border-radius: 100%;
 }
 
-.text-accent{
-  font-family: 'Bungee Shade', cursive;
+.text-accent {
+  font-family: "Bungee Shade", cursive;
 }
 
 button {
@@ -220,6 +220,77 @@ button.work-me:active::before {
 .button-principal-me:active {
   transform: translate(0);
   box-shadow: none;
+}
+
+.button-cv {
+  --main-focus: #2d8cf0;
+  --font-color: #323232;
+  --bg-color-sub: #dedede;
+  --bg-color: #eee;
+  --main-color: #323232;
+  position: relative;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.button-cv,
+.button__icon,
+.button__text {
+  transition: all 0.3s;
+}
+
+.button-cv .button__text {
+  transform: translateX(40px);
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.button-cv .button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: var(--bg-color-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-cv .svg {
+  width: 20px;
+  fill: var(--main-color);
+}
+
+.button-cv:hover {
+  background: var(--bg-color);
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button-cv:hover .button__icon {
+  width: 100px;
+  transform: translateX(0);
+}
+
+.button-cv:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px var(--main-color);
+}
+
+.shadowWorks:hover {
+  box-shadow: 0px 0px 50px 4px rgba(73, 233, 130, 0.59);
+  -webkit-box-shadow: 0px 0px 50px 4px rgba(73, 233, 130, 0.59);
+  -moz-box-shadow: 0px 0px 50px 4px rgba(73, 233, 130, 0.59);
 }
 
 .text-gradient {

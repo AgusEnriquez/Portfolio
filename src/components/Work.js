@@ -17,29 +17,29 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
           >
-            <div>
-              <h2 className="h2 leading-tight text-accent">
+            <div className="flex justify-content items-center flex-col">
+              <h2 className="h2 leading-tight text-accent text-5xl">
                 My Latest <br />
                 Work.
               </h2>
-              <p className="max-w-sm mb-16">
+              <p className="max-w-sm mb-8 font-semibold ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Dolore, totam! Aliquam non quidem similique ullam est.
               </p>
               <button className="button-principal-me"> View all projects</button>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1 shadowWorks">
+              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 "></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
                 src={Img1}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Design</span>
+                <span className="text-gradient"> NOMBRE PROJECTO</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white "> Project Title</span>
+                <span className="text-3x1 text-white "> Lenguajes</span>
               </div>
             </div>
           </motion.div>
@@ -48,23 +48,23 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10 "
+            className="flex-1 flex flex-col gap-y-10 justify-between	"
           >
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1 shadowWorks">
+              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 "></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
                 src={Img2}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Design</span>
+                <span className="text-gradient">NOMBRE PROJECTO</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white "> Project Title</span>
+                <span className="text-3x1 text-white ">Lenguajes</span>
               </div>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1 shadowWorks">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -72,10 +72,10 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Design</span>
+                <span className="text-gradient">NOMBRE PROJECTO</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white "> Project Title</span>
+                <span className="text-3x1 text-white ">Lenguajes</span>
               </div>
             </div>
           </motion.div>
